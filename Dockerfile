@@ -25,5 +25,3 @@ RUN mkdir -p /etc/nginx/lua && \
     bash -c "curl https://raw.githubusercontent.com/rxi/json.lua/master/json.lua > /etc/nginx/lua/json.lua"
 
 WORKDIR /app
-
-
